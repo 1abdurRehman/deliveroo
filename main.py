@@ -60,7 +60,7 @@ def continue_with_email():
     form_input = wbwait.until(
             EC.presence_of_element_located((By.ID, 'email-address'))
         )
-    form_input.send_keys("abd.reh980@outlook.com")
+    form_input.send_keys("johnrow96@outlook.com")
     # affter filling click continue
     click_btn('//button/span[text()="Continue"]', by='XPATH')
 

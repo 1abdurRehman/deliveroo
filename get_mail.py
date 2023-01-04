@@ -21,7 +21,7 @@ def get_mail_out():
     imap_server = imaplib.IMAP4_SSL("outlook.office365.com")
 
     # Log in to your account
-    imap_server.login("abd.reh980@outlook.com", "Database56$$")
+    imap_server.login("johnrow96@outlook.com", "coaldev/123")
 
     # Select the Inbox folder
     imap_server.select("Inbox")
